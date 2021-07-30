@@ -15,6 +15,7 @@ const proxy = require('./lib/proxy');
 
 /* eslint-disable global-require */
 const resources = {
+  zoneAccessFirewall: require('./lib/resources/ZoneAccessFirewall'),
   dnsRecords: require('./lib/resources/DNSRecords'),
   enterpriseZoneWorkersScripts: require('./lib/resources/EnterpriseZoneWorkersScripts'),
   enterpriseZoneWorkersRoutes: require('./lib/resources/EnterpriseZoneWorkersRoutes'),
